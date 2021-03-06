@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="title_home">Начало</string>
+    <string name="title_dashboard">Табло</string>
+    <string name="title_notifications">Нотификации</string>
+
+    <string-array name="State">
+        <item>София</item>
+        <item>Пловдив</item>
+    </string-array>
+
+    <string-array name="shipper">
+        <item>Изпращач 1</item>
+        <item>Изпращач 2</item>
+    </string-array>
+
+    <string-array name="DishName">
+        <item>Гювеч</item>
+        <item>Кавърма</item>
+        <item>Капама</item>
+        <item>Дроб Сарма</item>
+        <item>Кебап</item>
+        <item>Качамак</item>
+        <item>Боб</item>
+        <item>Катми</item>
+    </string-array>
+</resources>

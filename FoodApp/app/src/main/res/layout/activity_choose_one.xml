@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".ChooseOne">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="265dp"
+        android:layout_height="330dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="@font/bad_script"
+            android:text="Намерете домашна храна около себе си или предложете своя!"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/chef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Свържете се като готвач" />
+
+        <Button
+            android:id="@+id/customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Свържете се като клиент" />
+
+        <Button
+            android:id="@+id/delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="свържете като лице за доставка" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
